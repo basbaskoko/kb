@@ -1,0 +1,89 @@
+body {
+    color: #bfbfbf;
+    background-color: #000000;
+    font-size: 25px;
+}
+
+#name {
+    font-size: 50px;
+}
+
+#insta {
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+    margin-top: 0px;
+    display: inline-block;
+    height: 40px;
+    width: auto;
+    margin-left: 15px;
+}
+
+#backButton {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#image {
+    height: 500px;
+    width: auto;
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+#about {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #bfbfbf;
+    font-size: 25px;
+}
+
+.Button {
+    color: #bfbfbf;
+}
+
+#title1 {
+    margin-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#story {
+    font-size: 25px;
+    margin-top: 0px;
+    /*text-align: justify;*/
+    float: left;
+    margin: 50px;
+    font-family: 'Merienda', cursive;
+}
+
+.date {
+    text-align: right;
+    margin-top: 0px;
+}
+
+.entry {
+    /*text-align: justify;
+    text-indent: 50px;*/
+    border: double;
+    padding: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+
+.paragraph {
+    /*text-indent: 50px;
+    text-align: justify;*/
+}
+
+.slant {
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+}

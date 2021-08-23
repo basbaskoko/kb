@@ -1,0 +1,86 @@
+#name {
+    font-size: 50px;
+    text-align: center;
+    background-color: #a8e69c;
+    padding-bottom: 5px;
+}
+
+#coyoteenews {
+    display: inline;
+    float: left;
+    margin-right: 25px;
+    padding-left: 10px;
+}
+
+#info {
+    display: inline;
+    float: center;
+}
+
+#quote {
+    font-family: 'Tangerine', cursive;
+}
+
+#story {
+    display: inline;
+    float: right;
+    margin-left: 25px;
+    padding-right: 10px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////
+#content {
+    border: 2px solid black;
+    padding: 1px;
+    margin: 10px;
+    padding: 10px;
+}
+*/
+
+.description {
+    position: absolute;
+    visibility: hidden;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Uchen';
+}
+
+.wrap {
+    position: relative;
+}
+
+.wrap:hover .description {
+    visibility: visible;
+}
+
+.wrap:hover .image {
+    opacity: .2;
+    transition: opacity .7s;
+}
+
+#newsLabel {
+    top: 150px;
+    bottom: 0;
+    left: 60px;
+    font-size: 50px;
+    width: 30px;
+    margin-top: 0px;
+}
+
+#storyLabel {
+    top: 70px;
+    right: 30px;
+    font-size: 50px;
+    width: 200px;
+}
+
+#marbleLabel {
+    /*
+    bottom: 0;
+    left: 400px;
+    font-size: 50px;
+    width: 500px;
+    margin-top: 0px;
+    */
+}
+
